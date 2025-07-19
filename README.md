@@ -24,6 +24,25 @@ npm install gitmate
 
 ---
 
+## 🔍 Usage Example
+
+```js
+import gitmate from "gitmate";
+
+(async () => {
+  const user = await gitmate.user("octocat");
+  const repos = await gitmate.repos("octocat");
+  const top = await gitmate.topRepos("octocat", 5);
+  const concise = await gitmate.concisedRepos("octocat");
+  const langs = await gitmate.languagesUsed("octocat");
+
+  console.log(user);
+  console.log(top);
+  console.log(langs);
+})();
+
+---
+
 ## 🛠 Project Status
 
 **Version 1.0.0 — Beta release**
