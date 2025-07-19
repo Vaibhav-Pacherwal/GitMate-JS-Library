@@ -4,7 +4,7 @@
     "dotenv": "^17.2.0"
   },
   "name": "gitmate.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library to fetch users and their repository details through username only",
   "main": "src/index.js",
   "devDependencies": {},
