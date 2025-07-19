@@ -13,5 +13,9 @@
   },
   "keywords": ["git", "gitmate", "api", "fetch", "library"],
   "author": "Vaibhav",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/gitmate.git"
+  }
 }
