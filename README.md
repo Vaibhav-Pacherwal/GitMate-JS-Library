@@ -40,6 +40,7 @@ import gitmate from "gitmate";
   console.log(top);
   console.log(langs);
 })();
+```
 
 ---
 
