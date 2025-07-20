@@ -7,7 +7,7 @@
 ## 📦 Installation
 
 ```bash
-npm install gitmate
+npm install gitmate.js
 ```
 
 ---
@@ -27,7 +27,7 @@ npm install gitmate
 ## 🔍 Usage Example
 
 ```js
-import gitmate from "gitmate";
+import gitmate from "gitmate.js";
 
 (async () => {
   const user = await gitmate.user("octocat");
